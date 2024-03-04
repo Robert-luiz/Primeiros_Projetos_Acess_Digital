@@ -1,2 +1,43 @@
 /**/
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.fundo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.detalhe{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border: 1px solid black;
+    height: 30%;
+    width: 50%;
+}
+
+.h1{
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+.img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
